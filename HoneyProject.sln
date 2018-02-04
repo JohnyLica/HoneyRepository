@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyProject", "HoneyProject\HoneyProject.csproj", "{70CFE172-724F-4999-B2B1-DA2CF505D3DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoneyProject", "HoneyProject\HoneyProject.csproj", "{70CFE172-724F-4999-B2B1-DA2CF505D3DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyProject.Data", "HoneyProject.Data\HoneyProject.Data.csproj", "{2E838396-D669-499C-AE18-21343F586718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoneyProject.Data", "HoneyProject.Data\HoneyProject.Data.csproj", "{2E838396-D669-499C-AE18-21343F586718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyProject.Manager", "HoneyProject.Manager\HoneyProject.Manager.csproj", "{FA31867F-0ED4-4DF8-8F80-37CE0AAE65FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2E838396-D669-499C-AE18-21343F586718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E838396-D669-499C-AE18-21343F586718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E838396-D669-499C-AE18-21343F586718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA31867F-0ED4-4DF8-8F80-37CE0AAE65FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA31867F-0ED4-4DF8-8F80-37CE0AAE65FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA31867F-0ED4-4DF8-8F80-37CE0AAE65FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA31867F-0ED4-4DF8-8F80-37CE0AAE65FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
